@@ -28,6 +28,8 @@ The project therefore evolved from a straightforward image-classification task i
 3. **class- and modality-specific failure modes**;
 4. **whether model attention is spatially associated with annotated lesions**.
 
+Although the original dataset is organized into 30 pathology–modality combinations, these combinations were not treated as distinct diagnostic classes. The three MRI modalities (T1, T1C+, and T2) represent different imaging sequences rather than different pathologies. The prediction target was therefore defined as 10 pathology classes, while modality was retained as metadata for subgroup evaluation.
+
 ---
 
 ## Dataset
