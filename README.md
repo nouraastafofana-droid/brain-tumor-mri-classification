@@ -1,4 +1,3 @@
-# brain-tumor-mri
 
 # Brain Tumor MRI Classification
 
